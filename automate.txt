@@ -1,0 +1,25 @@
+AUTOMATE OUR SCRIPT - ( AT OR CRONTAB )
+
+AT
+
+1.date
+Tue Jan 13 16:46:28 IST 2026
+
+2.at "16:47"
+at> bash /root/shell_scripts/34_redirect.sh
+
+3.ls
+  redirect.log
+
+------------------------------------------------------------------------------------------
+
+CRONTAB
+
+1.crontab -e
+
+* * * * * cd /root/shell_script && ./34_redirect.sh 
+
+2.crontab -l
+3.date
+
+------------------------------------------------------------------------------------------
